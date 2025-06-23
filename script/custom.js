@@ -7,7 +7,7 @@ fetch('경로')
 })
 */
 
-fetch('/ebs/include/footer.html')
+fetch('/ebs-master/include/footer.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.footer-include').innerHTML = data;
