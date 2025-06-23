@@ -27,7 +27,7 @@ fetch('/ebs-master/include/footer.html')
   })
 });
 
-fetch('/ebs/include/header.html')
+fetch('/ebs-master/include/header.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
